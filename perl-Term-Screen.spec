@@ -9,7 +9,7 @@ Summary:	Term::Screen - a simple all Perl Term::Cap based screen positioning mod
 Summary(pl):	Term::Screen - prosty perlowy modu³ pozycjonowania ekranu oparty na Term::Cap
 Name:		perl-Term-Screen
 Version:	1.02
-Release:	1
+Release:	2
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
