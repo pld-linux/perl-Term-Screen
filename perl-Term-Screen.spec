@@ -34,7 +34,7 @@ first thing.
 %description -l pl
 Term::Screen to bardzo prosty modu³ do pozycjonowania ekranu, który
 powinien dzia³aæ zawsze kiedy Term::Cap dzia³a. Jest skonfigurowany
-dla uniksów i u¿ywania stty, ale te zale¿no¶ci s± wydzielone do
+dla Uniksów i u¿ywania stty, ale te zale¿no¶ci s± wydzielone do
 instrukcji eval w konstruktorze new. W ten sposób mo¿na stworzyæ modu³
 potomny implementuj±cy Screen dla MS-DOS-a, przy u¿yciu ioctl-i, albo
 w inny sposób uzyskuj±c surowe i nieblokuj±ce wej¶cie. Nie jest to
