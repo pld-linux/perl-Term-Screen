@@ -1,0 +1,19 @@
+--- Term-Screen-1.02/test.pl	2001-11-05 07:22:09.000000000 +0000
++++ Term-Screen-1.02mod/test.pl	2004-04-11 13:55:35.000000000 +0000
+@@ -44,7 +44,7 @@
+ # test clreos
+ for (11 .. 20) { $scr->at($_,0)->puts($line); }
+ $scr->at(11,0)->puts("6. Clreos - Hit a key to clear all right and below:");
+-$scr->getch();
++#$scr->getch();
+ $scr->clreos();
+ 
+ #test insert line and delete line
+@@ -53,6 +53,7 @@
+ $scr->at(15,0)->dl();
+ $scr->at(14,0)->il()->at(14,0)->puts("... this is where line 14 was");
+ 
++__END__;
+ # test key_pressed
+ $scr->at(18,0)->puts("8. Key_pressed - Don't Hit a key in the next 5 seconds: ");
+ if ($scr->key_pressed(5)) { $scr->puts("HEY A KEY WAS HIT"); } 
