@@ -4,7 +4,7 @@
 #
 %include	/usr/lib/rpm/macros.perl
 %define	pdir	Term
-%define pnam	Screen
+%define	pnam	Screen
 Summary:	Term::Screen - a simple all Perl Term::Cap based screen positioning module
 Summary(pl):	Term::Screen - prosty perlowy modu³ pozycjonowania ekranu oparty na Term::Cap
 Name:		perl-Term-Screen
