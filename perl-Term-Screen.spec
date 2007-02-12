@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	Screen
 Summary:	Term::Screen - a simple all Perl Term::Cap based screen positioning module
-Summary(pl):	Term::Screen - prosty perlowy modu³ pozycjonowania ekranu oparty na Term::Cap
+Summary(pl.UTF-8):   Term::Screen - prosty perlowy moduÅ‚ pozycjonowania ekranu oparty na Term::Cap
 Name:		perl-Term-Screen
 Version:	1.03
 Release:	1
@@ -31,16 +31,16 @@ replacement for Curses - it has no memory. This was written so that it
 could be easily changed to fit nasty systems, and to be available
 first thing.
 
-%description -l pl
-Term::Screen to bardzo prosty modu³ do pozycjonowania ekranu, który
-powinien dzia³aæ zawsze kiedy Term::Cap dzia³a. Jest skonfigurowany
-dla Uniksów i u¿ywania stty, ale te zale¿no¶ci s± wydzielone do
-instrukcji eval w konstruktorze new. W ten sposób mo¿na stworzyæ modu³
-potomny implementuj±cy Screen dla MS-DOS-a, przy u¿yciu ioctl-i, albo
-w inny sposób uzyskuj±c surowe i nieblokuj±ce wej¶cie. Nie jest to
-zamiennik Curses - nie ma pamiêci. Zosta³ napisany tak, aby móg³ byæ
-³atwo dopasowany do paskudnych systemów i byæ pierwsz± dostêpn±
-rzecz±.
+%description -l pl.UTF-8
+Term::Screen to bardzo prosty moduÅ‚ do pozycjonowania ekranu, ktÃ³ry
+powinien dziaÅ‚aÄ‡ zawsze kiedy Term::Cap dziaÅ‚a. Jest skonfigurowany
+dla UniksÃ³w i uÅ¼ywania stty, ale te zaleÅ¼noÅ›ci sÄ… wydzielone do
+instrukcji eval w konstruktorze new. W ten sposÃ³b moÅ¼na stworzyÄ‡ moduÅ‚
+potomny implementujÄ…cy Screen dla MS-DOS-a, przy uÅ¼yciu ioctl-i, albo
+w inny sposÃ³b uzyskujÄ…c surowe i nieblokujÄ…ce wejÅ›cie. Nie jest to
+zamiennik Curses - nie ma pamiÄ™ci. ZostaÅ‚ napisany tak, aby mÃ³gÅ‚ byÄ‡
+Å‚atwo dopasowany do paskudnych systemÃ³w i byÄ‡ pierwszÄ… dostÄ™pnÄ…
+rzeczÄ….
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
