@@ -6,7 +6,7 @@
 %define		pdir	Term
 %define		pnam	Screen
 Summary:	Term::Screen - a simple all Perl Term::Cap based screen positioning module
-Summary(pl.UTF-8):   Term::Screen - prosty perlowy moduł pozycjonowania ekranu oparty na Term::Cap
+Summary(pl.UTF-8):	Term::Screen - prosty perlowy moduł pozycjonowania ekranu oparty na Term::Cap
 Name:		perl-Term-Screen
 Version:	1.03
 Release:	1
