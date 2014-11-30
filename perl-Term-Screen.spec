@@ -1,10 +1,10 @@
 #
 # Conditional build:
 %bcond_without	tests	# do perform "make test"
-#
-%include	/usr/lib/rpm/macros.perl
+
 %define		pdir	Term
 %define		pnam	Screen
+%include	/usr/lib/rpm/macros.perl
 Summary:	Term::Screen - a simple all Perl Term::Cap based screen positioning module
 Summary(pl.UTF-8):	Term::Screen - prosty perlowy moduł pozycjonowania ekranu oparty na Term::Cap
 Name:		perl-Term-Screen
@@ -16,6 +16,7 @@ Group:		Development/Languages/Perl
 Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
 # Source0-md5:	1a57d3aa267d613a8897933a99f7110e
 Patch0:		%{name}-test.patch
+URL:		http://search.cpan.org/dist/Term-Screen/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
 BuildArch:	noarch
@@ -44,7 +45,7 @@ rzeczą.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch0 -p1 
+%patch0 -p1
 
 %build
 %{__perl} Makefile.PL \
