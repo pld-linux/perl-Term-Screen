@@ -7,14 +7,13 @@
 Summary:	Term::Screen - a simple all Perl Term::Cap based screen positioning module
 Summary(pl.UTF-8):	Term::Screen - prosty perlowy moduł pozycjonowania ekranu oparty na Term::Cap
 Name:		perl-Term-Screen
-Version:	1.03
-Release:	3
+Version:	1.06
+Release:	1
 # same as perl
 License:	GPL v1+ or Artistic
 Group:		Development/Languages/Perl
-Source0:	http://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
-# Source0-md5:	1a57d3aa267d613a8897933a99f7110e
-Patch0:		%{name}-test.patch
+Source0:	https://www.cpan.org/modules/by-module/%{pdir}/%{pdir}-%{pnam}-%{version}.tar.gz
+# Source0-md5:	8b2c5f7b53e39a967fffc1ff2fb42b3b
 URL:		http://search.cpan.org/dist/Term-Screen/
 BuildRequires:	perl-devel >= 1:5.8.0
 BuildRequires:	rpm-perlprov >= 4.1-13
@@ -44,7 +43,6 @@ rzeczą.
 
 %prep
 %setup -q -n %{pdir}-%{pnam}-%{version}
-%patch -P0 -p1
 
 %build
 %{__perl} Makefile.PL \
